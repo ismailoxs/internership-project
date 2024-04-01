@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Homme1">
+    <ImageView
+    android:id="@+id/imageView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:srcCompat="@drawable/backcolor" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:padding="16dp"
+        android:rowCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Button
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/mycolor2"
+            android:drawableLeft="@drawable/account"
+            android:text="Compte" />
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="20dp"
+            android:drawableLeft="@drawable/consultation"
+            android:padding="8dp"
+            android:text="Consultation" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="20dp"
+            android:drawableLeft="@drawable/instruction"
+            android:padding="8dp"
+            android:text="Instructions" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="20dp"
+            android:drawableLeft="@drawable/don_de_sang"
+            android:padding="8dp"
+            android:text="Don de sang" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="20dp"
+            android:drawableLeft="@drawable/urgence"
+            android:padding="8dp"
+            android:text="Urgence" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="20dp"
+            android:drawableLeft="@drawable/contact"
+            android:padding="8dp"
+            android:text="Contact" />
+
+    </GridLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
