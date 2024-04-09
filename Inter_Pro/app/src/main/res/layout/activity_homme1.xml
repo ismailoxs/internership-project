@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Homme1"
-    android:background="@drawable/backcolor"
+    android:background="@color/mycolor2"
     >
 
 
@@ -53,6 +53,7 @@
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:layout_margin="20dp"
+            android:background="@color/black"
             android:drawableTop="@drawable/instruction"
             android:padding="18dp"
             android:text="Instructions" />

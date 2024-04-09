@@ -31,10 +31,9 @@ android {
         targetCompatibility = JavaVersion.VERSION_1_8
     }
 }
-
 dependencies {
     implementation ("androidx.cardview:cardview:1.0.0")
-
+    implementation ("pl.droidsonroids.gif:android-gif-drawable:1.2.17")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
