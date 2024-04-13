@@ -5,26 +5,22 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/mycolor2"
     tools:context=".MainActivity">
 
 
     <TextView
-        android:visibility="invisible"
         android:id="@+id/loginID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="72dp"
         android:text="Login"
         android:textSize="45sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/userID"
-        android:visibility="invisible"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="104dp"
@@ -37,34 +33,31 @@
         app:layout_constraintTop_toBottomOf="@+id/loginID" />
 
     <EditText
-        android:visibility="invisible"
         android:id="@+id/codeID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="53dp"
+        android:layout_marginTop="32dp"
         android:ems="10"
         android:hint="Here"
         android:inputType="textPassword"
         android:textColorHint="@color/mycolor1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
-        android:visibility="invisible"
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="18dp"
+        android:layout_marginTop="24dp"
         android:text="Use number or Email Adress"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/userID" />
 
     <TextView
-        android:visibility="invisible"
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -72,33 +65,132 @@
         android:text="Enter your Code"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/codeID"
-        app:layout_constraintVertical_bias="0.143" />
+        app:layout_constraintVertical_bias="0.0" />
+
+    <!--    <ImageView-->
+<!--        android:id="@+id/companyicon"-->
+<!--        android:layout_width="195dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="1.0"-->
+<!--        app:srcCompat="@drawable/companylogo" />-->
 
     <Button
         android:id="@+id/submitButton"
-        style="@style/Widget.AppCompat.Button"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
+        android:backgroundTint="@color/my_button_color"
+
         android:layout_height="wrap_content"
-        android:layout_marginBottom="108dp"
-        android:background="@color/mycolor1"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="604dp"
+        android:layout_marginEnd="40dp"
         android:clickable="true"
         android:text="Submit"
-        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="80dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="496dp"
+        android:background="@android:color/black"
+        android:layout_marginEnd="308dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="80dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="492dp"
+        android:layout_marginEnd="44dp"
+        android:background="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:layout_marginRight="20dp"
+            android:scaleType="fitCenter"
+            android:background="@color/transparent"
+            app:srcCompat="@drawable/google" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            style="@android:style/Widget.DeviceDefault.ImageButton"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:scaleType="fitCenter"
+            android:background="@color/transparent"
+            app:srcCompat="@drawable/facebookred" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttoncreationaccount"
+        android:backgroundTint="@color/my_button_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Crete account"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <ImageView
-        android:id="@+id/companyicon"
-        android:layout_width="195dp"
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Or Loging With"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="479dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="212dp"
+        android:layout_height="190dp"
+        android:layout_marginEnd="292dp"
+        android:layout_marginBottom="624dp"
+        android:rotation="141"
+        android:rotationY="2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/veins" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="212dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="268dp"
+        android:layout_marginBottom="608dp"
+        android:rotation="-141"
+        android:rotationX="-133"
+        android:rotationY="360"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/companylogo" />
+        app:srcCompat="@drawable/veins" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

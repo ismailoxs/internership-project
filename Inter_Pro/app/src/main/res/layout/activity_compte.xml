@@ -79,12 +79,12 @@
             android:id="@+id/cardView"
             android:layout_width="130dp"
             android:layout_height="130dp"
-            android:layout_marginStart="116dp"
             android:layout_marginTop="84dp"
             android:layout_marginBottom="30dp"
             app:cardCornerRadius="80dp"
             app:cardElevation="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 

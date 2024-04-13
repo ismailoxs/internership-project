@@ -17,7 +17,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
-    Button submit;
+    Button submit,creationaccout;
     EditText user,code;
     ImageView imageView;
         private AnimationDrawable animation;
@@ -33,8 +33,7 @@ public class MainActivity extends AppCompatActivity {
         animation = (AnimationDrawable) imageView.getBackground();
         user=findViewById(R.id.userID);
         code=findViewById(R.id.codeID);
-
-
+        creationaccout=findViewById(R.id.buttoncreationaccount);
 
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -43,6 +42,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        creationaccout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this, accountcreation.class);
+                startActivity(intent);
+            }
+        });
+
     }
     @Override
     protected void onStart() {
@@ -56,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
                 user.setVisibility(View.VISIBLE);
                 submit.setVisibility(View.VISIBLE);
                 code.setVisibility(View.VISIBLE);
+                creationaccout.setVisibility(View.VISIBLE);
             }
         }, 3000);  // 3000 milliseconds = 3 seconds
     }

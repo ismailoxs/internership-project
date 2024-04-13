@@ -5,16 +5,15 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Homme1"
-    android:background="@color/mycolor2"
-    >
+    android:background="@color/design_default_color_surface"
+    tools:context=".Homme1">
 
 
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:columnCount="2"
         android:layout_marginTop="100dp"
+        android:columnCount="2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,16 +22,19 @@
 
         <Button
             android:id="@+id/compte"
-            style="@style/Widget.AppCompat.Button"
+            style="@style/Widget.AppCompat.Button.Small"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_row="0"
             android:layout_column="0"
             android:layout_columnWeight="1"
             android:layout_margin="20dp"
+            android:backgroundTint="@color/my_button_color"
             android:drawableTop="@drawable/account"
-            android:padding="18dp"
-            android:text="Compte" />
+            android:padding="20dp"
+            android:text="Compte"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/consultation"

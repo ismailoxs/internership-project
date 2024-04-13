@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Inter_Pro"
         tools:targetApi="31">
         <activity
+            android:name=".accountcreation"
+            android:exported="false" />
+        <activity
             android:name=".groupesanguin"
             android:exported="false" />
         <activity
