@@ -634,7 +634,9 @@
     <TextView
         android:id="@+id/textView28"
         android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
         android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
         android:background="@drawable/oval_background"
         android:gravity="center"
         android:paddingLeft="4dp"
@@ -642,6 +644,7 @@
         android:text="B+"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/textView25"
+        app:layout_constraintEnd_toStartOf="@+id/textView25"
         app:layout_constraintStart_toEndOf="@+id/textView2"
         app:layout_constraintTop_toTopOf="@+id/textView25"
         app:layout_constraintVertical_bias="0.0" />
