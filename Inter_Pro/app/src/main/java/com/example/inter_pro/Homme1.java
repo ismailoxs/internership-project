@@ -17,7 +17,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class Homme1 extends AppCompatActivity {
-Button compte,consultation,instruction,de_sang,urgence,contact;
+Button compte,consultation,instruction,de_sang,urgence,collectdesang;
 Intent intent;
 
     @Override
@@ -31,7 +31,7 @@ Intent intent;
     instruction=findViewById(R.id.instruction);
     de_sang=findViewById(R.id.de_sang);
     urgence=findViewById(R.id.urgance);
-    contact=findViewById(R.id.contact);
+    collectdesang=findViewById(R.id.collectsang);
     compte.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View v) {
@@ -39,6 +39,20 @@ Intent intent;
             startActivity(intent);
         }
     });
+    de_sang.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            intent=new Intent(Homme1.this, groupesanguin.class);
+            startActivity(intent);
+        }
+    });
+        collectdesang.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent=new Intent(Homme1.this, Collectdesang.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }

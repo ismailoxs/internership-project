@@ -9,7 +9,6 @@
 
 
     <TextView
-        android:visibility="invisible"
         android:id="@+id/loginID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -21,7 +20,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:visibility="invisible"
 
         android:id="@+id/userID"
         android:layout_width="wrap_content"
@@ -36,7 +34,6 @@
         app:layout_constraintTop_toBottomOf="@+id/loginID" />
 
     <EditText
-        android:visibility="invisible"
 
         android:id="@+id/codeID"
         android:layout_width="wrap_content"
@@ -52,7 +49,6 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
-        android:visibility="invisible"
 
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
@@ -65,7 +61,6 @@
         app:layout_constraintTop_toBottomOf="@+id/userID" />
 
     <TextView
-        android:visibility="invisible"
 
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
@@ -79,20 +74,19 @@
         app:layout_constraintTop_toBottomOf="@+id/codeID"
         app:layout_constraintVertical_bias="0.0" />
 
-        <ImageView
-            android:visibility="invisible"
-            android:id="@+id/companyicon"
-        android:layout_width="195dp"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/companylogo" />
+<!--    <ImageView-->
+<!--        android:id="@+id/companyicon"-->
+<!--        android:layout_width="195dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:visibility="invisible"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.0"-->
+<!--        app:srcCompat="@drawable/companylogo" />-->
 
     <Button
-        android:visibility="invisible"
 
         android:id="@+id/submitButton"
         android:layout_width="0dp"
@@ -110,8 +104,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <View
-        android:visibility="invisible"
-
         android:id="@+id/view5"
         android:layout_width="80dp"
         android:layout_height="2dp"
@@ -128,14 +120,12 @@
         android:layout_height="2dp"
         android:layout_marginTop="492dp"
         android:background="@android:color/black"
-        android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.951"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
-        android:visibility="invisible"
 
         android:id="@+id/linearLayout2"
         android:layout_width="wrap_content"
@@ -147,7 +137,7 @@
 
         <ImageButton
 
-            android:id="@+id/imageButton"
+            android:id="@+id/imageButtongoogle"
             android:layout_width="33dp"
             android:layout_height="33dp"
             android:layout_marginRight="20dp"
@@ -156,7 +146,7 @@
             app:srcCompat="@drawable/google" />
 
         <ImageButton
-            android:id="@+id/imageButton2"
+            android:id="@+id/imageButtonfacebook"
             style="@android:style/Widget.DeviceDefault.ImageButton"
             android:layout_width="35dp"
             android:layout_height="35dp"
@@ -168,7 +158,6 @@
     </LinearLayout>
 
     <Button
-        android:visibility="invisible"
 
         android:id="@+id/buttoncreationaccount"
         android:backgroundTint="@color/my_button_color"
@@ -189,12 +178,10 @@
         android:layout_marginEnd="160dp"
         android:text="Or Loging With"
         android:textSize="15dp"
-        android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <ImageView
-        android:visibility="invisible"
         android:id="@+id/imageView11"
         android:layout_width="212dp"
         android:layout_height="190dp"
@@ -207,7 +194,6 @@
         app:srcCompat="@drawable/veins" />
 
     <ImageView
-        android:visibility="invisible"
         android:id="@+id/imageView12"
         android:layout_width="212dp"
         android:layout_height="190dp"

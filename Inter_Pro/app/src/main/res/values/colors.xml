@@ -5,5 +5,9 @@
     <color name="mycolor1">#885855</color>
     <color name="mycolor2">#DDFAFD</color>
     <color name="transparent">#00000000</color>
-    <color name="my_button_color">#F4588D</color> <!-- replace with your desired color -->
+    <color name="my_button_color">#F4588D</color>
+    <color name="hommecolorbutton">#ECC8D4</color>
+
+    <color name="bluemmarrakech">#61A8F3</color>
+    <!-- replace with your desired color -->
 </resources>
