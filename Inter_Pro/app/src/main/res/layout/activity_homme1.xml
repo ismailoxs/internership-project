@@ -5,8 +5,13 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context=".Homme1">
 
+=======
+    android:background="@color/design_default_color_surface"
+    tools:context=".Homme1">
+>>>>>>> origin/branche_testig
 
 
     <GridLayout
@@ -24,12 +29,20 @@
         <Button
 
             android:id="@+id/compte"
+<<<<<<< HEAD
             android:layout_width="100dp"
             android:layout_height="100dp"
+=======
+            style="@style/Widget.AppCompat.Button.Small"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+>>>>>>> origin/branche_testig
             android:layout_row="0"
             android:layout_column="0"
             android:layout_columnWeight="1"
             android:layout_margin="20dp"
+<<<<<<< HEAD
             android:backgroundTint="@color/hommecolorbutton"
             android:drawableTop="@drawable/account"
             android:padding="18dp"
@@ -38,6 +51,13 @@
             android:textColor="@color/my_button_color"
             android:textSize="18.3dp"
             android:textStyle="italic" />
+=======
+            android:backgroundTint="@color/my_button_color"
+            android:drawableTop="@drawable/account"
+            android:padding="20dp"
+            android:text="Compte"
+            android:textStyle="bold" />
+>>>>>>> origin/branche_testig
 
         <Button
             android:id="@+id/consultation"

@@ -8,7 +8,11 @@
     tools:context=".accountcreation">
 
     <ImageView
+<<<<<<< HEAD
         android:id="@+id/imageView11"
+=======
+        android:id="@+id/imageView10"
+>>>>>>> origin/branche_testig
         android:layout_width="277dp"
         android:layout_height="331dp"
         android:layout_marginStart="252dp"

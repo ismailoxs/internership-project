@@ -32,12 +32,16 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+<<<<<<< HEAD
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
 
 public class MainActivity extends AppCompatActivity implements Serializable {
 
+=======
+public class MainActivity extends AppCompatActivity {
+>>>>>>> origin/branche_testig
     Button submit,creationaccout;
     EditText user,code;
    TextView login,textView3,textView4,textView39;
@@ -62,6 +66,7 @@ imageButtongoogle=findViewById(R.id.imageButtongoogle);
         login=findViewById(R.id.loginID);
         user=findViewById(R.id.userID);
         code=findViewById(R.id.codeID);
+<<<<<<< HEAD
         textView3=findViewById(R.id.textView3);
         textView4=findViewById(R.id.textView4);
         textView39=findViewById(R.id.textView39);
@@ -84,6 +89,9 @@ imageButtongoogle=findViewById(R.id.imageButtongoogle);
             }
         });
 
+=======
+        creationaccout=findViewById(R.id.buttoncreationaccount);
+>>>>>>> origin/branche_testig
 
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -97,6 +105,7 @@ imageButtongoogle=findViewById(R.id.imageButtongoogle);
             public void onClick(View v) {
                 Intent intent=new Intent(MainActivity.this, accountcreation.class);
                 startActivity(intent);
+<<<<<<< HEAD
             }});
 
 
@@ -149,6 +158,11 @@ imageButtongoogle=findViewById(R.id.imageButtongoogle);
             public void onFailure(Call<List<User>> call, Throwable t) {
             }
         });
+=======
+            }
+        });
+
+>>>>>>> origin/branche_testig
     }
     @Override
     protected void onStart() {
@@ -163,12 +177,15 @@ imageButtongoogle=findViewById(R.id.imageButtongoogle);
                 submit.setVisibility(View.VISIBLE);
                 code.setVisibility(View.VISIBLE);
                 creationaccout.setVisibility(View.VISIBLE);
+<<<<<<< HEAD
                 imageView12.setVisibility(View.VISIBLE);
                 ImageView11.setVisibility(View.VISIBLE);
                 linearLayout2.setVisibility(View.VISIBLE);
                 textView39.setVisibility(View.VISIBLE);
                 textView4.setVisibility(View.VISIBLE);
                 textView3.setVisibility(View.VISIBLE);
+=======
+>>>>>>> origin/branche_testig
             }
         }, 3000);  // 3000 milliseconds = 3 seconds
     }}

@@ -34,7 +34,10 @@
         app:layout_constraintTop_toBottomOf="@+id/loginID" />
 
     <EditText
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/branche_testig
         android:id="@+id/codeID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -49,7 +52,10 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/branche_testig
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -61,7 +67,10 @@
         app:layout_constraintTop_toBottomOf="@+id/userID" />
 
     <TextView
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/branche_testig
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -74,16 +83,27 @@
         app:layout_constraintTop_toBottomOf="@+id/codeID"
         app:layout_constraintVertical_bias="0.0" />
 
+<<<<<<< HEAD
 <!--    <ImageView-->
 <!--        android:id="@+id/companyicon"-->
 <!--        android:layout_width="195dp"-->
 <!--        android:layout_height="wrap_content"-->
 <!--        android:visibility="invisible"-->
+=======
+    <!--    <ImageView-->
+<!--        android:id="@+id/companyicon"-->
+<!--        android:layout_width="195dp"-->
+<!--        android:layout_height="wrap_content"-->
+>>>>>>> origin/branche_testig
 <!--        app:layout_constraintBottom_toBottomOf="parent"-->
 <!--        app:layout_constraintEnd_toEndOf="parent"-->
 <!--        app:layout_constraintStart_toStartOf="parent"-->
 <!--        app:layout_constraintTop_toTopOf="parent"-->
+<<<<<<< HEAD
 <!--        app:layout_constraintVertical_bias="0.0"-->
+=======
+<!--        app:layout_constraintVertical_bias="1.0"-->
+>>>>>>> origin/branche_testig
 <!--        app:srcCompat="@drawable/companylogo" />-->
 
     <Button
@@ -114,6 +134,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <View
+<<<<<<< HEAD
         android:id="@+id/view6"
 
         android:layout_width="80dp"
@@ -127,6 +148,18 @@
 
     <LinearLayout
 
+=======
+        android:id="@+id/view5"
+        android:layout_width="80dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="492dp"
+        android:layout_marginEnd="44dp"
+        android:background="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+>>>>>>> origin/branche_testig
         android:id="@+id/linearLayout2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -136,8 +169,12 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <ImageButton
+<<<<<<< HEAD
 
             android:id="@+id/imageButtongoogle"
+=======
+            android:id="@+id/imageButton"
+>>>>>>> origin/branche_testig
             android:layout_width="33dp"
             android:layout_height="33dp"
             android:layout_marginRight="20dp"
@@ -146,7 +183,11 @@
             app:srcCompat="@drawable/google" />
 
         <ImageButton
+<<<<<<< HEAD
             android:id="@+id/imageButtonfacebook"
+=======
+            android:id="@+id/imageButton2"
+>>>>>>> origin/branche_testig
             style="@android:style/Widget.DeviceDefault.ImageButton"
             android:layout_width="35dp"
             android:layout_height="35dp"
@@ -158,7 +199,10 @@
     </LinearLayout>
 
     <Button
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/branche_testig
         android:id="@+id/buttoncreationaccount"
         android:backgroundTint="@color/my_button_color"
         android:layout_width="wrap_content"
@@ -171,6 +215,7 @@
 
     <TextView
         android:id="@+id/textView39"
+<<<<<<< HEAD
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -180,6 +225,14 @@
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
+=======
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Or Loging With"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="479dp" />
+>>>>>>> origin/branche_testig
 
     <ImageView
         android:id="@+id/imageView11"
@@ -194,7 +247,11 @@
         app:srcCompat="@drawable/veins" />
 
     <ImageView
+<<<<<<< HEAD
         android:id="@+id/imageView12"
+=======
+        android:id="@+id/imageView11"
+>>>>>>> origin/branche_testig
         android:layout_width="212dp"
         android:layout_height="190dp"
         android:layout_marginStart="268dp"

@@ -19,12 +19,15 @@
         android:theme="@style/Theme.Inter_Pro"
         tools:targetApi="31">
         <activity
+<<<<<<< HEAD
             android:name=".CenterAdapter"
             android:exported="false" />
         <activity
             android:name=".Collectdesang"
             android:exported="false" />
         <activity
+=======
+>>>>>>> origin/branche_testig
             android:name=".accountcreation"
             android:exported="false" />
         <activity
